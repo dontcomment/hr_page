@@ -1,0 +1,85 @@
+.vac_item {
+    display: flex;
+    padding: 24px 0px;
+    max-width: 420px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+
+    h2 {
+        color: #F05323;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+    }
+
+    span {
+        color: #F05323;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+    }
+
+    ol {
+        color: #505050;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140%;
+        list-style-position: outside;
+        padding: 0px 0px 0px 20px;
+    }
+
+    p {
+        color: #505050;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140%;
+    }
+
+    li {
+        margin-bottom: 8px;
+    }
+
+    button {
+        display: flex;
+        width: 100%;
+        padding: 16px 48px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 32px;
+        background: #F05323;
+
+        color: #FFF;
+        text-align: center;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 15.6px */
+        text-transform: uppercase;
+    }
+}
+
+.Modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 300px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 18px;
+    padding: 24px 12px;
+}
+
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.70);
+  }

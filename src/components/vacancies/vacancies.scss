@@ -1,0 +1,57 @@
+.vacancies {
+    padding-top: 30px;
+
+    h1 {
+        color: #F05323;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+    }
+
+    .line {
+        margin-top: 30px;
+        border-bottom: 1px solid #505050;
+    }
+
+    .accordeon {
+        list-style-type: none;
+        background: white;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .accordeon_collapse {
+        height: 0px;
+        overflow: hidden;
+        transition: height 0.3s;
+    }
+
+    .accordeon_collapse.open {
+        height: auto;
+    }
+
+    .accordeon_item {
+        border-bottom: 1px solid #505050;
+        padding: 30px 0px 30px 0px;
+    }
+
+    .accordeon_header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+        width: 100%;
+        color: #505050;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        background: white;
+    }
+
+    .arrow.open {
+        transform: rotate(180deg);
+    }
+}

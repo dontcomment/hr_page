@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #505050;
+    padding-bottom: 20px;
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        a {
+            color: #505050;
+            text-align: right;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        span {
+            color: #505050;
+            text-align: right;
+            font-size: 8px;
+            font-weight: 500;
+        }
+    }
+}
